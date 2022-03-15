@@ -1,4 +1,4 @@
-from conta import CriaConta
+from Def_contas import CriaConta
 
 # >>>> Contas Criadas
 conta1 = CriaConta(4863, "Geovana", 700000, 80)
@@ -20,3 +20,4 @@ conta3.sacar(21000)
 conta1.extrato()
 conta2.extrato()
 conta3.extrato()
+
